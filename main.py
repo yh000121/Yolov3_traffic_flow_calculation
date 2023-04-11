@@ -1,6 +1,6 @@
 import math
 
-from sort import Sort 
+from sort import Sort
 import time 
 import cv2
 import numpy as np

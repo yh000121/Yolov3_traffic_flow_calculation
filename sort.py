@@ -1,4 +1,4 @@
-from __future__ import print_function
+from __future__ import print_function 
 from numba import jit
 import numpy as np
 from scipy.optimize import linear_sum_assignment
