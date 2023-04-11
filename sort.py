@@ -1,4 +1,4 @@
-from __future__ import print_function 
+from __future__ import print_function
 from numba import jit
 import numpy as np
 from scipy.optimize import linear_sum_assignment
@@ -124,7 +124,7 @@ def associate_detections_to_trackers(detections, trackers, iou_threshold=0.3):
     """
     将检测框bbox与卡尔曼滤波器的跟踪框进行关联匹配
     :param detections:检测框
-    :param trackers:跟踪框，即跟踪目标
+    :param trackers:跟踪框，即跟踪目标 
     :param iou_threshold:IOU阈值
     :return:跟踪成功目标的矩阵：matchs
             新增目标的矩阵：unmatched_detections
